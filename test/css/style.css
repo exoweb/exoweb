@@ -1,0 +1,77 @@
+html, body {
+    margin: 0 auto;
+    font-family:   helvetica;
+    font-size: 10pt;
+}
+
+a:focus, a:active {
+    outline: none;
+}
+
+#navbar {
+    color: white;
+    overflow: auto;
+    /*
+    background-color: #0B2161;
+    border-bottom: 1px solid silver;
+    background-image: url('../img/top-bg.png');
+    background-size: contain;
+    */
+    background-color: #2C2C2C;
+    background-image: -moz-linear-gradient(center top , #333, #222);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25), 0px -1px 0px rgba(0, 0, 0, 0.1) inset;
+}
+
+.container {
+    width: 80%; 
+    margin: 0 auto;
+    overflow: auto;
+} 
+
+#logo {
+    float: left;
+    margin: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    letter-spacing: 2px;
+}
+
+#menu {
+    margin-left: 10px;
+}
+
+.menu-link {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block; 
+}
+
+.menu-link:hover {
+    background-color: royalblue;
+    /*background-image: url('../img/menu-link-bg1.png');*/
+}
+
+.hero-unit {
+    background-color: #EEE;
+    border-radius: 6px;
+    padding: 50px;
+    margin-top: 20px;
+    
+}
+
+.margin-left-20 {
+    margin-left: 20px;
+}
+
+.block1 {
+    display: inline-block;
+    width: 250px;
+    float: left;
+    padding: 20px;
+}
+
+hr {
+    border-style: solid none;
+    border-color: #EEE;
+}
