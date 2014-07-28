@@ -11,12 +11,6 @@ a:focus, a:active {
 #navbar {
     color: white;
     overflow: auto;
-    /*
-    background-color: #0B2161;
-    border-bottom: 1px solid silver;
-    background-image: url('../img/top-bg.png');
-    background-size: contain;
-    */
     background-color: #2C2C2C;
     background-image: -moz-linear-gradient(center top , #333, #222);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25), 0px -1px 0px rgba(0, 0, 0, 0.1) inset;
@@ -36,6 +30,11 @@ a:focus, a:active {
     letter-spacing: 2px;
 }
 
+.logo-a {
+    color: white;
+    text-decoration: none;
+}
+
 #menu {
     margin-left: 10px;
 }
@@ -49,7 +48,6 @@ a:focus, a:active {
 
 .menu-link:hover {
     background-color: royalblue;
-    /*background-image: url('../img/menu-link-bg1.png');*/
 }
 
 .hero-unit {
