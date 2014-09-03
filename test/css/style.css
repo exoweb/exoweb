@@ -1,7 +1,7 @@
 html, body {
     margin: 0 auto;
-    font-family:   helvetica;
-    font-size: 10pt;
+    font-family: helvetica;
+    font-size: 11pt;
 }
 
 a:focus, a:active {
@@ -37,15 +37,21 @@ a:focus, a:active {
 
 #menu {
     margin-left: 10px;
+    padding: 1px;
 }
 
 .menu-link {
     color: white;
     text-decoration: none;
     padding: 15px;
-    display: inline-block; 
+    display: inline-block;
+    margin-bottom: 1px;
+    margin-right: -3px;
 }
 
+.menu-link-active {
+    background-color: royalblue;
+}
 .menu-link:hover {
     background-color: royalblue;
 }
@@ -72,4 +78,12 @@ a:focus, a:active {
 hr {
     border-style: solid none;
     border-color: #EEE;
+}
+
+
+
+/* contact */
+#contact-form {
+    margin-top: 30px;
+    margin-left: 20px;
 }

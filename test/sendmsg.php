@@ -14,12 +14,13 @@ $message = $message."\r\n email: ".$email."\r\n telefon: ".$phone;
 mail('masalpio@gmail.com', 'exoweb '.$name, $message);
 session_unset();
 // -- else 
+$message = ''; // after adding validation this should be removed
 $_SESSION['name'] = $name;
 $_SESSION['email'] = $email;
 $_SESSION['phone'] = $phone;
 $_SESSION['message'] = $message;
 
-header( 'Location: ./mail-test.php' ) ;
+header( 'Location: ./contact.php' ) ;
 
 
 ?>

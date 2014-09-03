@@ -1,26 +1,11 @@
-<!doctype html>
-<html lang="pl">
-<head>
-    <meta charset="utf-8"> 
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
-<body>
-
-    <div id="navbar">
-        <div class="container">
-            <div id="logo">
-                <a href="#" class="logo-a">EXOWEB<a/>
-            </div>
-            <div id="menu">
-                <a href="#" class="menu-link">Strona główna</a>
-                <a href="#" class="menu-link">Oferta</a>
-                <a href="#" class="menu-link">Kontakt</a>
-            </div>
-        </div>
-    </div>
+<?php
+session_start();
+$_SESSION['active_nav'] = 'main';
+include 'header.php';
+?>
     <div class="container">
         <div class="hero-unit">
-            <h1>Witaj na stronie Exoweb</h1>
+            <h1>Witaj!</h1>
         </div>
     </div>
     <div class="container">
@@ -35,15 +20,19 @@
             </div>
             <div class="block1">
                 <h2>Optymalne rozwiązania</h2>
-                <p>...
+                <p> 
+                    <img src="img/loadspeed-small.jpg" style="float:left; padding:2px;"/>
+                    Szybkość wczytywania witryny jest jednym z decydujących 
+                    czynników wpływających na pozycję strony w wyszukiwarkach oraz 
+                    ogolne wrażenia odwiedzającego.
+                    
                 </p>
             </div>
             <div class="block1">
                 <h2>Pełna pomoc techniczna</h2>
                 <p>W cenę wykonania strony wliczona jest pomoc w wyborze 
                  domeny, serwera oraz instalacja strony na serwerze.</p>
-                <p>Strona www z darmową opieką techniczną przez 6 miesięcy dla 
-                    nowych klientów. 
+                <p>Każda strona otrzymuje 6 miesięcy opieki technicznej.
                 <a href="#">zamów stronę</a></p>
             </div>
         </div>

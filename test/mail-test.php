@@ -9,7 +9,7 @@
         
 <?php 
 session_start(); 
-var_dump($_SESSION);
+//var_dump($_SESSION);
 ?>
         
         <div id="contact-form">    
@@ -17,23 +17,23 @@ var_dump($_SESSION);
             <form id="contact" class="pure-form" method="post" action="sendmsg.php">
                 <fieldset>    
 
-                    <label for="name">Imię</label>
-                    <input type="text" name="name" <?php if (getFS('name') !== '') 
-                        echo 'value="'.$_SESSION['name'].'"' ?> >
+                    <div><label for="name">Imię i Nazwisko</label></div>
+                    <div><input type="text" name="name" <?php if (getFS('name') !== '') 
+                        echo 'value="'.$_SESSION['name'].'"' ?> ></div>
 
-                    <label for="email">E-mail</label>
-                    <input type="email" name="email" <?php if (getFS('email') !== '') 
-                        echo 'value="'.$_SESSION['email'].'"' ?> >
+                    <div><label for="email">E-mail</label></div>
+                    <div><input type="email" name="email" <?php if (getFS('email') !== '') 
+                        echo 'value="'.$_SESSION['email'].'"' ?> ></div>
 
-                    <label for="phone">Telefon</label>
-                    <input type="text" name="phone" <?php if (getFS('phone') !== '') 
-                        echo 'value="'.$_SESSION['phone'].'"' ?> >
+                    <div><label for="phone">Telefon</label></div>
+                    <div><input type="text" name="phone" <?php if (getFS('phone') !== '') 
+                        echo 'value="'.$_SESSION['phone'].'"' ?> ></div>
                     
-                    <label for="message">Wiadomość</label>
-                    <textarea name="message"><?php if (getFS('message') !== '') 
-                        echo $_SESSION['message'] ?></textarea>
+                    <div><label for="message">Wiadomość</label></div>
+                    <div><textarea name="message"><?php if (getFS('message') !== '') 
+                        echo $_SESSION['message'] ?></textarea></div>
 
-                    <input type="submit" name="submit" id="submit" value="Wyślij" />
+                    <div><input type="submit" name="submit" id="submit" value="Wyślij" /></div>
 
                 </fieldset>
             </form>
