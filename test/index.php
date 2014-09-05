@@ -11,21 +11,20 @@ include 'header.php';
     <div class="container">
         <div class="margin-left-20">
             <div class="block1">
-                <h2>Najnowsze technologie</h2>
+                <h2>Sprawdzone technologie</h2>
                 <p>Projektowanie witryn na najnowsze urządzenia. 
                 </p>
                 <p>
-                    <img src="img/Responsive-Design-Multi-Device-Example.jpg" />
+                    <img src="img/Responsive-Design-Multi-Device-Example-lq.jpg" />
                 </p>
             </div>
             <div class="block1">
                 <h2>Optymalne rozwiązania</h2>
                 <p> 
-                    <img src="img/loadspeed-small.jpg" style="float:left; padding:2px;"/>
+                    <!--img src="img/loadspeed-small.jpg" style="padding:5px; float:right"/ -->
                     Szybkość wczytywania witryny jest jednym z decydujących 
-                    czynników wpływających na pozycję strony w wyszukiwarkach oraz 
-                    ogolne wrażenia odwiedzającego.
-                    
+                    czynników wpływających na pozycję strony w wyszukiwarkach  
+                    oraz ogólne wrażenia odwiedzającego.
                 </p>
             </div>
             <div class="block1">
@@ -44,7 +43,4 @@ include 'header.php';
 
 </body>
 </html>
-
-
-<?php
 

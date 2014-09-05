@@ -10,15 +10,16 @@ $message = $_POST['message'];
 // -- if validation passed send email
 $message = $message."\r\n email: ".$email."\r\n telefon: ".$phone;
 //$headers = 'From: '.$email;
-//mail('masalpio@gmail.com', 'exoweb '.$name, $message, $headers);
-mail('masalpio@gmail.com', 'exoweb '.$name, $message);
-session_unset();
-// -- else 
-$message = ''; // after adding validation this should be removed
-$_SESSION['name'] = $name;
-$_SESSION['email'] = $email;
-$_SESSION['phone'] = $phone;
-$_SESSION['message'] = $message;
+//mail('exoweb@exoweb.com', 'exoweb '.$name, $message, $headers);
+if (mail('exoweb@exoweb.pl', 'exoweb '.$name, $message)) {
+    session_unset();
+} else {
+    $message = ''; // after adding validation this should be removed
+    $_SESSION['name'] = $name;
+    $_SESSION['email'] = $email;
+    $_SESSION['phone'] = $phone;
+    $_SESSION['message'] = $message;
+}
 
 header( 'Location: ./contact.php' ) ;
 

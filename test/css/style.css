@@ -1,7 +1,7 @@
 html, body {
     margin: 0 auto;
     font-family: helvetica;
-    font-size: 11pt;
+    font-size: 10pt;
 }
 
 a:focus, a:active {
@@ -70,7 +70,7 @@ a:focus, a:active {
 
 .block1 {
     display: inline-block;
-    width: 250px;
+    width: 270px;
     float: left;
     padding: 20px;
 }
