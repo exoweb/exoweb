@@ -20,9 +20,7 @@ include 'header.php';
                     technologie oraz testuje swoje produkty na różnych systemach 
                     i wyświetlaczach.
                 </p>
-                <p>
-                    <img src="img/Responsive-Design-Multi-Device-Example-lq.jpg" />
-                </p>
+                <img src="img/Responsive-Design-Multi-Device-480.jpg" style="max-width:240px;" />
             </div>
             <div class="block1">
                 <h2>Optymalne rozwiązania</h2>
@@ -46,7 +44,6 @@ include 'header.php';
         <hr>
         <p>© Exoweb 2014</p>
     </div>
-
 </body>
 </html>
 
