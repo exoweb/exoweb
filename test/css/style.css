@@ -61,7 +61,13 @@ a:focus, a:active {
     border-radius: 6px;
     padding: 50px;
     margin-top: 20px;
-    
+}
+.hero-unit h1 {
+    color: inherit;
+    /*font-size: 30px;*/
+    letter-spacing: -1px;
+    line-height: 1;
+    margin-bottom: 0;
 }
 
 .margin-left-20 {
@@ -70,7 +76,7 @@ a:focus, a:active {
 
 .block1 {
     display: inline-block;
-    width: 270px;
+    width: 240px;
     float: left;
     padding: 20px;
 }
