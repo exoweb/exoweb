@@ -25,11 +25,11 @@ include 'header.php';
             <div class="block1">
                 <h2>Optymalne rozwiązania</h2>
                 <p> 
-                    <!--img src="img/loadspeed-small.jpg" style="padding:5px; float:right" -->
+                    <!--img src="img/loadspeed-small.jpg" alt="technologie-responsywne" style="padding:5px; float:right" -->
                     Szybkość wczytywania witryny jest jednym z decydujących 
                     czynników wpływających na pozycję strony w wyszukiwarkach  
                     oraz ogólne wrażenia odwiedzającego. Co więcej to właśnie pierwsze 
-                    sekundy bardzo często decydują czy internauta to pozostania na stronie.
+                    sekundy bardzo często decydują, czy internauta pozostania na stronie.
                 </p>
             </div>
             <div class="block1">
@@ -40,6 +40,7 @@ include 'header.php';
             </div>
         </div>
     </div>
+    <!-- footer -->
     <div class="container">
         <hr>
         <p>© Exoweb 2014</p>
