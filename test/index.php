@@ -5,22 +5,26 @@ include 'header.php';
 ?>
     <div class="container">
         <div class="hero-unit">
+             <img src="img/network.png" alt="network" width="100px"
+                 style="float:left; margin-right:20px"/>
             <h1>Witaj!</h1>
-            <p>Exoweb oferuje projektowanie witryn oraz średnich aplikacji 
-                internetowych.</p>
+            <p>Exoweb oferuje projektowanie stron oraz aplikacji 
+                internetowych. 
+            </p>
+           
+           
         </div>
     </div>
     <div class="container">
         <div class="margin-left-20">
             <div class="block1">
-                <h2>Sprawdzone technologie</h2>
+                <h2>Technologie responsywne</h2>
                 <p>
-                    Projektowanie witryn i aplikacji internetowych wymaga dziś 
-                    zastosowania odpowiednich rozwiązań. Exoweb wykorzystuje najnowsze 
-                    technologie oraz testuje swoje produkty na różnych systemach 
-                    i wyświetlaczach.
+                    Exoweb wykorzystuje najnowsze technologie oraz testuje swoje 
+                    produkty na różnych systemach i wyświetlaczach i przeglądarkach.
                 </p>
-                <img src="img/Responsive-Design-Multi-Device-480.jpg" style="max-width:240px;" />
+                <!--img src="img/Responsive-Design-Multi-Device-480.jpg" 
+                     alt="Responsive-Design-Multi-Device" style="max-width:240px;" /-->
             </div>
             <div class="block1">
                 <h2>Optymalne rozwiązania</h2>
@@ -28,8 +32,9 @@ include 'header.php';
                     <!--img src="img/loadspeed-small.jpg" alt="technologie-responsywne" style="padding:5px; float:right" -->
                     Szybkość wczytywania witryny jest jednym z decydujących 
                     czynników wpływających na pozycję strony w wyszukiwarkach  
-                    oraz ogólne wrażenia odwiedzającego. Co więcej to właśnie pierwsze 
-                    sekundy bardzo często decydują, czy internauta pozostania na stronie.
+                    oraz ogólne wrażenia odwiedzającego. Co więcej to właśnie 
+                    pierwsze sekundy bardzo często decydują, czy internauta 
+                    pozostanie na stronie.
                 </p>
             </div>
             <div class="block1">
@@ -43,7 +48,12 @@ include 'header.php';
     <!-- footer -->
     <div class="container">
         <hr>
-        <p>© Exoweb 2014</p>
+        <p>
+            © Exoweb 2014
+            <!--<a href="http://validator.w3.org/check?uri=http%3A%2F%2Fexoweb.pl%2Ftest%2F" target="_blank">
+                <img src="img/w3c-valid.jpg" alt="w3c-valid" style="vertical-align:middle; margin-left:30px;"/>
+            </a>-->
+        </p>
     </div>
 </body>
 </html>

@@ -16,18 +16,20 @@ if (isset($_SESSION['active_nav'])) {
     <div id="navbar">
         <div class="container">
             <div id="logo">
-                <a href="index.php" class="logo-a">EXOWEB</a>
+                <a href="index.php" class="logo-a">
+                    EXOWEB
+                </a>
             </div>
             <div id="menu">
                 <a href="index.php" class="menu-link 
                     <?php if ($active_nav == 'main') {echo 'menu-link-active';} ?>" 
-                   >Strona główna</a>
+                   >HOME</a>
                 <a href="offer.php" class="menu-link 
                     <?php if ($active_nav == 'offer') {echo 'menu-link-active';} ?>" 
-                   >Oferta</a>
+                   >OFERTA</a>
                 <a href="contact.php" class="menu-link 
                     <?php if ($active_nav == 'contact') {echo 'menu-link-active';} ?>" 
-                   >Kontakt</a>
+                   >KONTAKT</a>
             </div>
         </div>
     </div>
